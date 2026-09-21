@@ -1,0 +1,16 @@
+{
+  "name": "call-farm-bot",
+  "version": "1.0.0",
+  "description": "Bot para farmar tempo de call no Discord + invite tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:call": "node systems/call.js",
+    "start:invite": "node systems/invite.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  }
+}
